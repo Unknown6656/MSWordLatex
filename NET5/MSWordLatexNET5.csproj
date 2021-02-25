@@ -41,41 +41,40 @@
 
 
     <ItemGroup>
-        <Reference Include="Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-            <Private>False</Private>
+        <Reference Include="Microsoft.Office.Tools.v4.0.Framework">
+            <HintPath>lib/Microsoft.Office.Tools.v4.0.Framework.dll</HintPath>
         </Reference>
         <Reference Include="Microsoft.Vbe.Interop">
-          <HintPath>lib\Microsoft.Vbe.Interop.dll</HintPath>
+          <HintPath>lib/Microsoft.Vbe.Interop.dll</HintPath>
         </Reference>
-        <Reference Include="Microsoft.VisualStudio.Tools.Applications.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-            <Private>False</Private>
+        <Reference Include="Microsoft.VisualStudio.Tools.Applications.Runtime">
+            <HintPath>lib/Microsoft.VisualStudio.Tools.Applications.Runtime.dll</HintPath>
         </Reference>
-        <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-            <Private>False</Private>
+        <Reference Include="Microsoft.Office.Tools">
+            <HintPath>lib/Microsoft.Office.Tools.dll</HintPath>
         </Reference>
-        <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-            <Private>False</Private>
+        <Reference Include="Microsoft.Office.Tools.Common">
+            <HintPath>lib/Microsoft.Office.Tools.Common.dll</HintPath>
         </Reference>
-        <Reference Include="Microsoft.Office.Tools.Word, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-            <Private>False</Private>
+        <Reference Include="Microsoft.Office.Tools.Word">
+            <HintPath>lib/Microsoft.Office.Tools.Word.dll</HintPath>
         </Reference>
-    </ItemGroup>
-    <ItemGroup>
-        <Reference Include="Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-            <Private>True</Private>
+        <Reference Include="Microsoft.Office.Tools.Common.v4.0.Utilities">
+            <HintPath>lib/Microsoft.Office.Tools.Common.v4.0.Utilities.dll</HintPath>
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Reference Include="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
-            <Private>False</Private>
+        <Reference Include="Office">
+            <HintPath>lib/Office.dll</HintPath>
             <EmbedInteropTypes>true</EmbedInteropTypes>
         </Reference>
-        <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
-            <Private>False</Private>
+        <Reference Include="Microsoft.Office.Interop.Word">
+            <HintPath>lib/Microsoft.Office.Interop.Word.dll</HintPath>
             <EmbedInteropTypes>true</EmbedInteropTypes>
         </Reference>
-        <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-            <Private>False</Private>
+        <Reference Include="stdole">
+            <HintPath>lib/stdole.dll</HintPath>
+            <EmbedInteropTypes>true</EmbedInteropTypes>
         </Reference>
     </ItemGroup>
 
